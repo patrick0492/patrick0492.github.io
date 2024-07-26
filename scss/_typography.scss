@@ -1,0 +1,73 @@
+.body{
+  font-size: 14px;
+  font-weight: 400;
+  font-family: 'lato', sans-serif;
+}
+.body-small{
+  font-size: 12px;
+  font-weight: 400;
+  font-family: 'lato', sans-serif;
+}
+.body-large{
+  color: rgba(255,255,255,.9);
+  font-size: 26px;
+  font-weight: 400;
+  font-family: 'lato', sans-serif;
+  line-height: 1.8;
+}
+h1{
+  font-size: calc(16.5vw - 26.5px);
+  line-height: calc(12.54167vw - 4px);
+  letter-spacing: -.3972vw;
+  text-transform: uppercase;
+  font-weight: 800;
+  font-family: 'Lato', sans-serif;
+  white-space: nowrap;
+  display: block;
+  position: relative;
+  opacity: 1;
+}
+h1.bg-large{
+  opacity: .15;
+  font-size: calc(12.5vw - 25.5px);
+  line-height: calc(7.54167vw - 4px);
+}
+h3{
+  font-size: 22px;
+  font-weight: 400;
+  font-family: 'Lato', sans-serif;
+  // letter-spacing: 1.2px;
+}
+h4{
+  font-family: 'Lato', sans-serif;
+  font-size: 14px;
+}
+h5{
+  font-family: 'Lato', sans-serif;
+  font-size: 12px;
+}
+.btn{
+  color: #160930;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff;
+  padding: 0px 30px;
+  height: 42px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: .3px;
+  font-family: 'Lato';
+  border: 2px solid #fff;
+  transition: all .2s ease;
+}
+.btn span{
+  line-height: 19px;
+  position: relative;
+}
+.btn:hover{
+  color: #fff;
+  background: transparent;
+}
